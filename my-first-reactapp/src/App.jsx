@@ -1,7 +1,5 @@
 import React from 'react'
-// const name = "Gaurav"
-// const age = 23
-// const city = "New delhi"
+
 const person = [{
   name:"Gaurav",
   age:23,
@@ -13,7 +11,9 @@ const App = () => {
    <>
   <h1>
     My name is {person[0].name}
+
   </h1>
+  <button>Click me </button>
 
    </>
   )
